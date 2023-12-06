@@ -1,0 +1,9 @@
+<?php 
+    session_start();
+    unset($_SESSION['me_id']);
+    unset($_SESSION['me_name']);
+    unset($_SESSION['me_name2']);
+    unset($_SESSION['me_profile']);
+    unset($_SESSION['log_me_in']);
+    header("location:../index.php");
+?>
